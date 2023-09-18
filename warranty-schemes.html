@@ -1,0 +1,270 @@
+<!DOCTYPE html
+	PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+	<title>Auto World - Warraty Shemes</title>
+	<link href="css/style.css" rel="stylesheet" type="text/css" />
+	<link href="css/SpryTabbedPanels.css" rel="stylesheet" type="text/css" />
+	<script src="js/SpryTabbedPanels.js" type="text/javascript"></script>
+	<script src="js/warranty.js" type="text/javascript"></script>
+	<style>
+		body {
+			background-color: white;
+		}
+
+		.ws-h1 {
+			color: red;
+			text-align: center;
+			font-size: 30px;
+		}
+
+		.wspg1stp {
+			color: black;
+			font-size: larger;
+			margin-left: 10px;
+
+		}
+
+		.wsf-h3 {
+			color: red;
+			font-size: large;
+			margin-left: 60px;
+		}
+
+		.syc-h3 {
+			padding: 10px;
+			margin-left: 30px;
+			color: red;
+		}
+
+		.warranty-form {
+			/* border-radius: 20px; */
+			/* border: solid black 1px; */
+			margin-left: auto;
+			margin-right: auto;
+			width: 60%;
+			display: grid;
+			grid-template-rows: 150;
+			grid-template-columns: 1fr 2fr;
+			margin-bottom: 10px;
+		}
+
+		.box1 {
+			margin-top: 10px;
+			margin-bottom: 10px;
+			background-color: white;
+			border: solid black 2px;
+			border-radius: 20px;
+			box-shadow: red 10 1 1 2;
+		}
+
+		.box2 {
+			margin-top: 10px;
+			margin-bottom: 10px;
+			margin-left: 10px;
+			background-color: white;
+			border: solid black 2px;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			border-radius: 20px;
+			/* box-shadow: red 10 1 1 2; */
+		}
+
+		select {
+			margin-top: 10px;
+			margin-left: 25px;
+			padding: 5px;
+			background-color: red;
+		}
+
+		.box1-h4 {
+			margin: 10px;
+			margin-left: 70px;
+			padding: 5px;
+			color: red;
+		}
+
+		.box2-h4 {
+			color: red;
+		}
+
+		input {
+			margin: 10px;
+		}
+
+		.inputs1 {
+			margin-top: 80px;
+
+
+		}
+
+		.inputs2 {
+			margin-top: 80px;
+
+		}
+
+		.inputs3 {
+			margin-top: 80px;
+
+		}
+
+		.h4or {
+			color: red;
+			margin-top: 20px;
+			margin-left: 80px;
+			/* text-align: center; */
+
+		}
+	</style>
+</head>
+
+<body>
+	<!-- Header Begins Here -->
+	<iframe src="header.html" width="100%" height="140" frameborder="0" scrolling="no"></iframe>
+	<!-- Header Ends Here -->
+	<div class="main-div-warranty">
+		<h1 class="ws-h1">Warranty Schemes</h1>
+		<p class="wspg1stp">AutoWorld provide warranties of any model or brand. Our warranties coverage helps you to
+			budget
+			and plan for long term maintenance and repair costs. We enable you to drive hassle free and not
+			to worry abouth the maitenance of your vehilce. Our warranties strictly depending on your
+			driving habits and annual mileage. To get a car warranty please enter the make and model of your
+			vehicle.</p>
+		<div class="warranty-form">
+			<div class="box1">
+				<h3 class="syc-h3">Select Your Car</h3>
+				<select name="cars" onChange="getOptionValue()">
+					<option id="" selected="selected">Select Your Brand</option>
+					<optgroup label="BMW">
+						<option value="128i Coupe">128i Coupe</option>
+						<option value="328i Sedan">328i Sedan</option>
+						<option value="X6 xDrive50i">X6 xDrive50i</option>
+					</optgroup>
+					<optgroup label="Honda">
+						<option value="CIVIC">CIVIC</option>
+						<option value="City">City</option>
+						<option value="CR-V">CR-V</option>
+					</optgroup>
+					<optgroup label="Mazda">
+						<option value="CX7">CX7</option>
+						<option value="RX8">RX8</option>
+						<option value="Tribute">Tribute</option>
+					</optgroup>
+					<optgroup label="Nissan">
+						<option value="Maxima">Maxima</option>
+						<option value="Sentra">Sentra</option>
+						<option value="Versa">Versa</option>
+					</optgroup>
+					<optgroup label="Suzuki">
+						<option value="Cultus">Cultus</option>
+						<option value="Liana">Liana</option>
+						<option value="Swift">Swift</option>
+					</optgroup>
+					<optgroup label="Toyota">
+						<option value="Camry">Camry</option>
+						<option value="Carolla">Corolla</option>
+						<option value="Land Cruiser">Land Cruiser</option>
+					</optgroup>
+				</select>
+				<h4 class="box1-h4">Price</h4>
+				<h4 class="box1-h4">Years</h4>
+				<br><br><br>
+				<h4 class="box1-h4">Miles</h4>
+
+			</div>
+			<div class="box2">
+				<div class="inputs1">
+					<input name="price1" type="text" readonly="true" class="txt">
+					<input name="year1" type="text" readonly="true" class="txt">
+					<h4 class="h4or">OR</h4><br>
+					<input name="mile1" type="text" readonly="true" class="txt">
+
+				</div>
+				<div class="inputs2">
+					<input name="price2" type="text" readonly="true" class="txt">
+					<input name="year2" type="text" readonly="true" class="txt">
+					<h4 class="h4or">OR</h4><br>
+					<input name="mile2" type="text" readonly="true" class="txt">
+
+				</div>
+
+				<div class="inputs3">
+					<input name="price3" type="text" readonly="true" class="txt">
+					<input name="year3" type="text" readonly="true" class="txt">
+					<h4 class="h4or">OR</h4><br>
+					<input name="mile3" type="text" readonly="true" class="txt">
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- Site footer -->
+	<footer class="site-footer">
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-12 col-md-6">
+					<h6>About</h6>
+					<p class="text-justify">Scanfcode.com <i>CODE WANTS TO BE SIMPLE </i> is an initiative to
+						help
+						the
+						upcoming programmers with the code. Scanfcode focuses on providing the most efficient
+						code
+						or
+						snippets as the code wants to be simple. We will help programmers build up concepts in
+						different
+						programming languages that include C, C++, Java, HTML, CSS, Bootstrap, JavaScript, PHP,
+						Android,
+						SQL and Algorithm.</p>
+				</div>
+
+				<div class="col-xs-6 col-md-3">
+					<h6>Links</h6>
+					<ul class="footer-links">
+						<li><a href="index.html">Home</a></li>
+						<li><a href="brands.html">Brands</a></li>
+						<li><a href="warranty-schemes.html">Warranty Schemes</a></li>
+						<li><a href="financing.html">Financing</a></li>
+						<li><a href="compare-cars.html">Compare Cars</a></li>
+						<li><a href="sitemap.html">Sitemap</a></li>
+						<li><a href="contact-us.html">Contact Us</a></li>
+
+
+					</ul>
+				</div>
+				<div class="col-xs-6 col-md-3">
+					<h6>Brands</h6>
+					<ul class="footer-links">
+						<li><a href="">BMW</a></li>
+						<li><a href="">Honda</a></li>
+						<li><a href="">Suzuki</a></li>
+						<li><a href="">Mazda</a></li>
+						<li><a href="">Toyota</a></li>
+					</ul>
+				</div>
+			</div>
+			<hr>
+		</div>
+		<div class="container">
+			<div class="row">
+				<div class="col-md-8 col-sm-6 col-xs-12">
+					<p class="copyright-text">Copyright &copy; 2017 All Rights Reserved by
+						<a href="#">Scanfcode</a>.
+					</p>
+				</div>
+
+				<div class="col-md-4 col-sm-6 col-xs-12">
+					<ul class="social-icons">
+						<li><a class="facebook" href="#"><i class="fa fa-facebook"></i></a></li>
+						<li><a class="twitter" href="#"><i class="fa fa-twitter"></i></a></li>
+						<li><a class="instagram" href="#"><i class="fa fa-instagram"></i></a></li>
+						<li><a class="linkedin" href="#"><i class="fa fa-linkedin"></i></a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</footer>
+</body>
+
+</html>

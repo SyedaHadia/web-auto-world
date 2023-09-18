@@ -1,0 +1,176 @@
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+  <title>Auto World - Financing</title>
+  <link href="css/style.css" rel="stylesheet" type="text/css" />
+  <link href="css/SpryTabbedPanels.css" rel="stylesheet" type="text/css" />
+  <script src="js/SpryTabbedPanels.js" type="text/javascript"></script>
+  <script src="js/financing.js" type="text/javascript"></script>
+</head>
+
+<body>
+  <!-- Main Wrapper Begins Here -->
+  <div id="main-wrapper">
+    <!-- Header Begins Here -->
+    <iframe src="header.html" width="100%" height="140" frameborder="0" scrolling="no"></iframe>
+    <!-- Header Ends Here -->
+    <div class="clear"></div>
+    <!-- Inner Wrapper Begins Here -->
+    <div id="inner-wrapper">
+      <!-- Content Box -->
+      <div id="content-box">
+        <div id="content-top">
+          <h1>Financing</h1>
+          <p>You may be eligible for a lease or car financing when you purchase a new car. Just fill out the information
+            below and a dealer or financial instituion will contact you with your options. </p>
+          <form name="finance">
+            <table width="100%" border="0" align="center" cellpadding="5" cellspacing="5" id="related">
+              <tr>
+                <td>
+                  <h3>Select Your Car</h3>
+                </td>
+                <td><select name="cars" onChange="getOptionValue()">
+                    <option selected="selected">Select Your Brand</option>
+                    <optgroup label="BMW">
+                      <option value="128i Coupe">128i Coupe</option>
+                      <option value="328i Sedan">328i Sedan</option>
+                      <option value="X6 xDrive50i">X6 xDrive50i</option>
+                    </optgroup>
+                    <optgroup label="Honda">
+                      <option value="CIVIC">CIVIC</option>
+                      <option value="City">City</option>
+                      <option value="CR-V">CR-V</option>
+                    </optgroup>
+                    <optgroup label="Mazda">
+                      <option value="CX7">CX7</option>
+                      <option value="RX8">RX8</option>
+                      <option value="Tribute">Tribute</option>
+                    </optgroup>
+                    <optgroup label="Nissan">
+                      <option value="Maxima">Maxima</option>
+                      <option value="Sentra">Sentra</option>
+                      <option value="Versa">Versa</option>
+                    </optgroup>
+                    <optgroup label="Suzuki">
+                      <option value="Cultus">Cultus</option>
+                      <option value="Liana">Liana</option>
+                      <option value="Swift">Swift</option>
+                    </optgroup>
+                    <optgroup label="Toyota">
+                      <option value="Camry">Camry</option>
+                      <option value="Carolla">Corolla</option>
+                      <option value="Land Cruiser">Land Cruiser</option>
+                    </optgroup>
+                  </select></td>
+                <td align="right">
+                  <h3>Price ($)</h3>
+                </td>
+                <td><input name="price" type="text" readonly="true" class="txt" /></td>
+              </tr>
+              <tr>
+                <td><strong>Term (months)</strong></td>
+                <td><input name="months1" type="text" value="12" readonly="true" class="txt" /></td>
+                <td><input name="months2" type="text" value="24" readonly="true" class="txt" /></td>
+                <td><input name="months3" type="text" value="36" readonly="true" class="txt" /></td>
+              </tr>
+              <tr>
+                <td><strong>Down Payment ($)</strong></td>
+                <td><input name="payment1" type="text" readonly="true" class="txt" /></td>
+                <td><input name="payment2" type="text" readonly="true" class="txt" /></td>
+                <td><input name="payment3" type="text" readonly="true" class="txt" /></td>
+              </tr>
+              <tr>
+                <td><strong>Monthly Payments ($)</strong></td>
+                <td><input name="installment1" type="text" readonly="true" class="txt" /></td>
+                <td><input name="installment2" type="text" readonly="true" class="txt" /></td>
+                <td><input name="installment3" type="text" readonly="true" class="txt" /></td>
+              </tr>
+              <tr>
+                <td>&nbsp;</td>
+                <td colspan="3" align="right">
+                  <p><strong>You can pay us by the following methods:&nbsp;</strong></p>
+                  <img src="images/cards.png" alt="Payment Methods" />
+                </td>
+              </tr>
+            </table>
+          </form>
+
+        </div>
+        <div id="content-bottom"></div>
+      </div>
+      <!-- Content Box -->
+      <!-- Sidebar -->
+      <div id="sidebar">
+        <iframe src="sidebar.html" width="100%" height="100%" frameborder="0" scrolling="no"></iframe>
+      </div>
+      <!-- Sidebar -->
+      <div class="clear"></div>
+    </div>
+    <!-- Site footer -->
+    <footer class="site-footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12 col-md-6">
+            <h6>About</h6>
+            <p class="text-justify">Scanfcode.com <i>CODE WANTS TO BE SIMPLE </i> is an initiative to help the
+              upcoming programmers with the code. Scanfcode focuses on providing the most efficient code or
+              snippets as the code wants to be simple. We will help programmers build up concepts in different
+              programming languages that include C, C++, Java, HTML, CSS, Bootstrap, JavaScript, PHP, Android,
+              SQL and Algorithm.</p>
+          </div>
+
+          <div class="col-xs-6 col-md-3">
+            <h6>Links</h6>
+            <ul class="footer-links">
+              <li><a href="index.html">Home</a></li>
+              <li><a href="brands.html">Brands</a></li>
+              <li><a href="warranty-schemes.html">Warranty Schemes</a></li>
+              <li><a href="financing.html">Financing</a></li>
+              <li><a href="compare-cars.html">Compare Cars</a></li>
+              <li><a href="sitemap.html">Sitemap</a></li>
+              <li><a href="contact-us.html">Contact Us</a></li>
+
+
+            </ul>
+          </div>
+
+
+          <div class="col-xs-6 col-md-3">
+            <h6>Brands</h6>
+            <ul class="footer-links">
+              <li><a href="">BMW</a></li>
+              <li><a href="">Honda</a></li>
+              <li><a href="">Suzuki</a></li>
+              <li><a href="">Mazda</a></li>
+              <li><a href="">Toyota</a></li>
+            </ul>
+          </div>
+        </div>
+        <hr>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-8 col-sm-6 col-xs-12">
+            <p class="copyright-text">Copyright &copy; 2017 All Rights Reserved by
+              <a href="#">Scanfcode</a>.
+            </p>
+          </div>
+
+          <div class="col-md-4 col-sm-6 col-xs-12">
+            <ul class="social-icons">
+              <li><a class="facebook" href="#"><i class="fa fa-facebook"></i></a></li>
+              <li><a class="twitter" href="#"><i class="fa fa-twitter"></i></a></li>
+              <li><a class="instagram" href="#"><i class="fa fa-instagram"></i></a></li>
+              <li><a class="linkedin" href="#"><i class="fa fa-linkedin"></i></a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+</body>
+
+</html>
