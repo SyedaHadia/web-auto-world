@@ -1,15 +1,13 @@
 /* 
 Site Name: Auto World.com
 Documnet Type: CSS Style Sheet
-Coded By Farrukh Basit Khan
-*/
+Coded By Alisha , Hadia , Ayesha */
+
 * {
 	margin: 0px;
 	padding: 0px;
 	box-sizing: border-box;
 	font-family: 'Montserrat', sans-serif;
-	/* font-family: 'Roboto', sans-serif; */
-	;
 }
 
 
@@ -347,23 +345,8 @@ input:hover {
 
 #search-box select optgroup {
 	color: #000000;
-	/* font-style: normal; */
-	/* margin-left: auto;
-	margin-right: auto; */
 }
 
-/* #search-box .search-btn { */
-/* background-image: url(../images/search-btn.png); */
-/* background-repeat: no-repeat; */
-/* background-color: #dddddd; */
-/* border: none;
-	width: 75px;
-	height: 31px;
-	margin: 5px 0px; */
-/* float: right; */
-/* margin-left: auto;
-	margin-right: auto; */
-/* } */
 
 .bymodel {
 
@@ -383,13 +366,6 @@ input:hover {
 	margin-right: 200px;
 }
 
-/* #big-btns { */
-/* width: 300px; */
-/* align-items: center; */
-/* margin: 5px auto 0px auto;
-	padding: 0px; */
-/* } */
-/*  */
 .home-btns a {
 	width: 100px;
 	padding: 5px;
@@ -423,29 +399,17 @@ input:hover {
 
 /*** Content Box ***/
 #content-box {
-	/* background-image: url(../images/content-bg.jpg); */
 	width: 1500px;
 	margin-left: auto;
 	margin-right: auto;
-	/* float: left; */
-	/* margin: 0px 9px 0px 0px; */
+	
 }
 
 #content-top {
-	/* background-image: url(../images/content-top.jpg); */
 	background-repeat: no-repeat;
 	width: 1490px;
 	padding: 5px;
 }
-
-/* #content-box h1 {
-	font-size: 24px;
-	color: red;
-	/* margin-left: 200px; */
-/* margin: 0px; */
-/* text-align: center; */
-/* padding: 5px 0px; */
-/* } */
 
 #content-box h2 {
 	font-size: 18px;
@@ -488,8 +452,6 @@ input:hover {
 }
 
 #content-box table#brands {
-	/* border-top: solid 0.1em #868686;
-	border-left: solid 0.1em #868686; */
 	margin: 5px auto 0px auto;
 }
 
@@ -506,21 +468,14 @@ input:hover {
 }
 
 #content-box .title-bg {
-	/* background-image: url(../images/title-bg.jpg); */
 	background-color: red;
 	background-repeat: repeat-x;
 }
 
 #content-bottom {
-	/* background-image: url(../images/content-bottom.jpg); */
 	background-repeat: no-repeat;
 	height: 5px;
 }
-
-/* #related {
-	border: solid 1px #999;
-	background-color: #EEEEEE;
-} */
 
 /*** Sidebar ***/
 #sidebar {
